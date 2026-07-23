@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { getHabits } from '../api';
 import MonthlyCalendar from '../components/MonthlyCalendar';
 
